@@ -11,8 +11,8 @@
     'use strict';
 
     // 🔧 Replace with your preferred icons
-    const SD_ICON  = 'https://www.moderneopets.com/images/user/wishlist//safetydeposit.gif';
-    const WIZ_ICON = '/workspaces/petsite-scripts/images/wizard.png';
+    const SD_ICON  = 'https://github.com/Arduqq/petsite-scripts/images/sdb.png';
+    const WIZ_ICON = 'https://github.com/Arduqq/petsite-scripts/images/wizard.png';
 
     function createIconLink(href, iconUrl, label) {
         const a = document.createElement('a');
