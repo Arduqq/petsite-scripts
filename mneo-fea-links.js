@@ -11,8 +11,8 @@
     'use strict';
 
     // 🔧 Replace with your preferred icons
-    const SD_ICON  = 'https://github.com/Arduqq/petsite-scripts/blob/main/images/sdb.png';
-    const WIZ_ICON = 'https://github.com/Arduqq/petsite-scripts/blob/main/images/wizard.png;
+    const SD_ICON  = 'https://raw.githubusercontent.com/Arduqq/petsite-scripts/refs/heads/main/images/sdb.png';
+    const WIZ_ICON = 'https://raw.githubusercontent.com/Arduqq/petsite-scripts/refs/heads/main/images/wizard.png';
 
     function createIconLink(href, iconUrl, label) {
         const a = document.createElement('a');
@@ -28,7 +28,6 @@
         img.alt = label;
         img.setAttribute('role', 'img');
         img.setAttribute('aria-hidden', 'false');
-        img.style.width = '16px';
         img.style.height = '16px';
         img.style.verticalAlign = 'middle';
 
